@@ -5,13 +5,13 @@ split flap text for react. hinged cards that flip like an airport departure boar
 ## install
 
 ```bash
-npm install splitflap
+npm install @denizeffects/splitflap
 ```
 
 ## quick start
 
 ```tsx
-import { SplitFlap } from "splitflap";
+import { SplitFlap } from "@denizeffects/splitflap";
 
 <SplitFlap text="departures" />
 ```

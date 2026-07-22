@@ -1,6 +1,9 @@
 {
-  "name": "splitflap",
+  "name": "@denizeffects/splitflap",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Split flap text for React. Flap, roll, scramble and odometer modes.",
   "keywords": [
     "react",
