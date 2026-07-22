@@ -8,4 +8,7 @@ export default defineConfig({
   clean: true,
   minify: true,
   external: ["react", "react-dom"],
+  // the whole library is client-side; lets next.js app router consumers
+  // import it straight into server components
+  banner: { js: '"use client";' },
 });
