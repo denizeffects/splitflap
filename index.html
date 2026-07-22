@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>splitflap · demo</title>
+    <style>
+      :root {
+        --bg: #0a0a09;
+        --ink: #eae8e1;
+        --soft: #a29e93;
+        --line: #2a2925;
+      }
+      * { box-sizing: border-box; margin: 0; }
+      body {
+        background: var(--bg);
+        color: var(--ink);
+        font-family: ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace;
+        font-size: 14px;
+        line-height: 1.6;
+        min-height: 100vh;
+        padding: 64px 28px;
+      }
+      #root { max-width: 860px; margin: 0 auto; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/demo/main.tsx"></script>
+  </body>
+</html>
